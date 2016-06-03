@@ -1,5 +1,6 @@
 #include "qvalidatedlineedit.h"
 #include <QStyle>
+
 #include "guiconstants.h"
 
 QValidatedLineEdit::QValidatedLineEdit(QWidget *parent) :

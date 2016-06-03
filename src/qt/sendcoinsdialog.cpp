@@ -597,7 +597,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString & text)
                     ui->labelCoinControlChangeLabel->setText(tr("(no label)"));
                 else
                 {
-				    ui->labelCoinControlChangeLabel->setProperty("error", true);
+                    ui->labelCoinControlChangeLabel->setProperty("error", true);
                     ui->labelCoinControlChangeLabel->style()->polish(ui->labelCoinControlChangeLabel);
                     ui->labelCoinControlChangeLabel->setText(tr("WARNING: unknown change address"));
                 }

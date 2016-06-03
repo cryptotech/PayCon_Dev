@@ -134,8 +134,8 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     sendCoinsPage = new SendCoinsDialog(this);
 
     signVerifyMessageDialog = new SignVerifyMessageDialog(this);
-
-    stakeForCharityDialog = new StakeForCharityDialog(this);
+	
+	stakeForCharityDialog = new StakeForCharityDialog(this);
 
     centralWidget = new QStackedWidget(this);
     centralWidget->addWidget(overviewPage);
@@ -146,7 +146,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     centralWidget->addWidget(addressBookPage);
     centralWidget->addWidget(receiveCoinsPage);
     centralWidget->addWidget(sendCoinsPage);
-    centralWidget->addWidget(stakeForCharityDialog);
+	centralWidget->addWidget(stakeForCharityDialog);
     setCentralWidget(centralWidget);
 
     // Create status bar
@@ -318,11 +318,11 @@ void BitcoinGUI::createActions()
     aboutAction->setMenuRole(QAction::AboutRole);
 
         charityAction = new QAction(QIcon(":/icons/bitcoin"), tr("&MultiSend"), this);
-    charityAction->setToolTip(tr("MultiSend Settings"));
-    charityAction->setCheckable(true);
-    charityAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_7));
+	charityAction->setToolTip(tr("MultiSend Settings"));
+	charityAction->setCheckable(true);
+	charityAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_7));
     charityAction->setMenuRole(QAction::AboutRole);
-    tabGroup->addAction(charityAction);
+	tabGroup->addAction(charityAction);
 
     aboutQtAction = new QAction(QIcon(":/trolltech/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
@@ -355,7 +355,7 @@ void BitcoinGUI::createActions()
 
     connect(quitAction, SIGNAL(triggered()), qApp, SLOT(quit()));
     connect(aboutAction, SIGNAL(triggered()), this, SLOT(aboutClicked()));
-        connect(charityAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
+		connect(charityAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
         connect(charityAction, SIGNAL(triggered()), this, SLOT(charityClicked()));
     connect(aboutQtAction, SIGNAL(triggered()), qApp, SLOT(aboutQt()));
     connect(optionsAction, SIGNAL(triggered()), this, SLOT(optionsClicked()));
@@ -526,7 +526,7 @@ void BitcoinGUI::setWalletModel(WalletModel *walletModel)
                 statisticsPage->setModel(clientModel);
                 chatWindow->setModel(clientModel);
                 blockBrowser->setModel(clientModel);
-                stakeForCharityDialog->setModel(walletModel);
+				stakeForCharityDialog->setModel(walletModel);
 
         setEncryptionStatus(walletModel->getEncryptionStatus());
         connect(walletModel, SIGNAL(encryptionStatusChanged(int)), this, SLOT(setEncryptionStatus(int)));
@@ -1291,6 +1291,7 @@ void BitcoinGUI::charityClicked(QString addr)
     exportAction->setEnabled(false);
     disconnect(exportAction, SIGNAL(triggered()), 0, 0);
 }
+
 /* zeewolf: Hot swappable wallet themes */
 void BitcoinGUI::changeTheme(QString theme)
 {
