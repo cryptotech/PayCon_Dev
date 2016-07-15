@@ -2,7 +2,7 @@
 ![alt text](https://github.com/cryptotech/PayCon/blob/master/src/qt/res/icons/PayCon256.png "PayCon")
 
 [![Join the chat at http://slackin.conslackin.tk](https://github.com/cryptotech/PayCon_Dev/blob/master/src/qt/res/icons/slack-64.png)](http://slackin.conslackin.tk)
-
+[![Join the chat at https://join.skype.com/uJU2A51RZPfQ](https://github.com/cryptotech/PayCon_Dev/blob/master/src/qt/res/icons/skype_icon_64.png)](https://join.skype.com/uJU2A51RZPfQ)
 
 PayCon Specifications 
 ===========================
@@ -12,7 +12,7 @@ PayCon is a PoS-based cryptocurrency.
 - PoW Algorithm: X13
 - PoW + PoS Hybrid
 - PoW has ended
-- PoS Interest 100% Annually
+- PoS Interest: 100% Annually
 - PoS Min Stake Time: 2 Day
 - PoS Max Stake Time: 14 Days
 - PoS Reward: 30 CON
