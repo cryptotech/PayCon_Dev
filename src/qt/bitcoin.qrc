@@ -2,7 +2,6 @@
     <qresource prefix="/icons">
         <file alias="bitcoin">res/icons/PayCon.png</file>
         <file alias="coinbg">res/icons/PayCon256.png</file>
-        <file alias="yuno">res/icons/PayCon-Yuno.png</file>
         <file alias="address-book">res/icons/address-book.png</file>
         <file alias="quit">res/icons/quit.png</file>
         <file alias="send">res/icons/send.png</file>
@@ -47,7 +46,6 @@
         <file alias="staking_off">res/icons/staking_off.png</file>
         <file alias="staking_on">res/icons/staking_on.png</file>
         <file alias="reddit">res/icons/reddit.png</file>
-        <file alias="twitter">res/icons/twitter.png</file>
         <file alias="face">res/icons/face.png</file>
         <file alias="forums">res/icons/forums.png</file>
         <file alias="youtube">res/icons/youtube.png</file>
@@ -58,6 +56,9 @@
         <file alias="block">res/icons/block.png</file>
         <file alias="statistics">res/icons/stats.png</file>
         <file alias="cryptsy">res/icons/cryptsy.png</file>
+        <file alias="skype">res/icons/skype_icon_64.png</file>
+        <file alias="twitter">res/icons/Twitter-icon-64.png</file>
+        <file alias="slack">res/icons/slack-64.png</file>
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>

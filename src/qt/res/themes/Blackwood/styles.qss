@@ -11,7 +11,7 @@
  */ 
  
 /** [VARS]
-	$text-color = #969675
+	$text-color = #ffffff
 	$main-color-l = #142930
 	$main-color-xl = #969675
 	$main-color-d = #342D7E
@@ -35,12 +35,12 @@
 
 /* Overview */
  QMainWindow {
-	border-image: url($themes-dir/Blackwood/wood.jpg);
+	border-image: url($themes-dir/Blackwood/wood.png);
 }
 
 /* Dialogs */
 QDialog, QTableView{
-	border-image: url($themes-dir/Blackwood/black.jpg);
+	border-image: url($themes-dir/Blackwood/black.png);
      font-size: 14px;
 }
 /* Group Box */
@@ -61,7 +61,7 @@ QFrame {
 }
 /* Coin Image */
 #label_2 {
-	qproperty-pixmap: url($themes-dir/Blackwood/PayCon256.png);
+	qproperty-pixmap: url($themes-dir/Blackwood/PayCon.png);
 }
 
 
@@ -441,7 +441,7 @@ CoinControlTreeWidget, QTableView {
 	border-style: none;
 	border-bottom: 3px solid $shade-transparent-2;
 	color: $text-color;
-	selection-background-color: $main-color-transparent-2;
+	selection-background-color: $accent-color;
 	/*selection-color: $main-color-xd;*/
 	outline: none;
 }
@@ -476,7 +476,7 @@ QTreeView::item:hover {
 }
 
 QTreeView::item:selected {
-	background-color: $main-color-transparent-2;
+	background-color: $accent-color;
 	color: $main-color-xd;
 }
 

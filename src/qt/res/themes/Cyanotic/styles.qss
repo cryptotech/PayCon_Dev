@@ -45,7 +45,7 @@ QDialog, QTableView{
 }
 /* Coin Image */
 #label_2 {
-	qproperty-pixmap: url($themes-dir/Cyanotic/PayCon196.png);
+	qproperty-pixmap: url($themes-dir/Cyanotic/PayCon-gs3.png);
 }
 
 /* Group Box */
@@ -393,7 +393,7 @@ QToolBar QToolButton:disabled {
 	border: none;
 }
 QToolBar QToolButton[text="Overview"] {
-    border-image: url($themes-dir/Cyanotic/overview.png) 0 0 0 0 stretch stretch;
+    border-image: url($themes-dir/Cyanotic/paycon.png) 0 0 0 0 stretch stretch;
     color: transparent;
     background: transparent;
     border: none;
@@ -499,8 +499,8 @@ CoinControlTreeWidget, QTableView {
 	border-style: none;
 	border-bottom: 3px solid $shade-transparent-2;
 	color: $text-color;
-	selection-background-color: $main-color-transparent-2;
-	/*selection-color: $main-color-xd;*/
+	selection-background-color: $accent-color;
+	selection-color: $main-color-xd;
 	outline: none;
 }
 
@@ -534,7 +534,7 @@ QTreeView::item:hover {
 }
 
 QTreeView::item:selected {
-	background-color: $main-color-transparent-2;
+	background-color: $accent-color;
 	color: $main-color-xd;
 }
 
@@ -793,3 +793,4 @@ QBalloonTip QPushButton:hover {
 QStatisticsPage {
 	background:black;
 }
+

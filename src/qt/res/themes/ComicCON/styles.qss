@@ -2,6 +2,7 @@
  * ComicCON Qt Theme - v1.0
  * Created: 22/2/2015
  * Author: dcgirl (using examples by tepelstreeltje and Zeewolf) 
+ * Edited By: CryptoTech
  */
 
 /**
@@ -26,19 +27,90 @@
 	$accent-color = #ff0000
 	$brightest-color = #000000
 	$input-border-color = #000000
-	$header-font = "Verdana, Geneva, sans-serif"
+	$header-font = "Comic Sans MS, cursive, sans-serif"
+	//"Verdana, Geneva, sans-serif"
 	$error-color = #ff0000
 	$success-color = #00FF00
 [/VARS] */
 
 * { gridline-color: $main-color }
 
-QWidget#ChatWindowClass, QWidget#layoutWidget_2{
+/*MultiSend Page*/
+#StakeForCharityDialog QLabel#label_12{
+	background-color: #ffffff;
+	border: 2px solid $input-border-color;
+	margin: 0 0 5px 0;
+	/*color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Comic Sans MS, cursive, sans-serif;*/
+}
+#StakeForCharityDialog QLabel#label{
+	background-color: #ffffff;
+	border: 2px solid $input-border-color;
+}
+
+#StakeForCharityDialog QLabel#label_5{
+	background-color: #ffffff;
+	border: 2px solid $input-border-color;
+}
+/*Send Coins Page Heading*/
+#SendCoinsDialog QLabel#labelCoinControlFeatures{
+	color: #ff0000;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+/*Statistics Page Heading*/
+#StatisticsPage QLabel#label_5{
+	color: #ff0000;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Comic Sans MS, cursive, sans-serif;
+}
+/*Block Browser Heading*/
+QWidget#BlockBrowser QLabel#label_5{
+	color: #ff0000;
+	background-color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Comic Sans MS, cursive, sans-serif;
+}
+/*Chat Page Headings*/
+QWidget#ChatWindowClass QLabel#label_9{
+	color: #ff0000;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0 0 0 10px;
+	font-family: Comic Sans MS, cursive, sans-serif;
+}
+QWidget#ChatWindowClass QLabel#label_11{
+	color: #ff0000;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Comic Sans MS, cursive, sans-serif;
+}
+QWidget#ChatWindowClass QLabel#label_12{
+	color: #ff0000;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0 0 0 10px;
+	font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+/*Chat Page Background*/
+QWidget#widget_2{
+	background-image: url($themes-dir/ComicCON/whitetrans2.png);
+	background-repeat: no-repeat;
+}
+/*Block Browser Background*/
+QWidget#BlockBrowser QWidget#layoutWidget_2{
 	border-image: url($themes-dir/ComicCON/blockexplorer.png);
 }
 QWidget#layoutWidget_2 QLabel{
 	color: #ff0000;
-	padding: 0 0 0 20px;
+	padding: 0 0 0 10px;
 }
 QWidget#layoutWidget_2 QSpinBox{
 	background: #ff0000;
@@ -55,7 +127,7 @@ QFrame#gridFrame_2 {
 
 /* Overview */
  QMainWindow {
-	border-image: url($themes-dir/ComicCON/comicconmain.png);
+	border-image: url($themes-dir/ComicCON/comic1.png);
 	background: transparent;
 }
 
@@ -74,6 +146,10 @@ QGroupBox {
 
 QWidget{
      font-size: 14px
+}
+/* Coin Image */
+#label_2 {
+	qproperty-pixmap: url($themes-dir/ComicCON/payconT.png);
 }
 
 /* Frames */
@@ -711,3 +787,4 @@ QBalloonTip QPushButton:hover {
 QStatisticsPage {
 	background:black;
 }
+
