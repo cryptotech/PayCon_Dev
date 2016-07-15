@@ -1,11 +1,9 @@
 
 ![alt text](https://github.com/cryptotech/PayCon/blob/master/src/qt/res/icons/PayCon256.png "PayCon")
 
-[![Join the chat at https://slackin.conslackin.tk](https://badges.gitter.im/nochowderforyou/clams.svg)](https://gitter.im/nochowderforyou/clams?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://slackin.conslackin.tk](https://github.com/cryptotech/PayCon_Dev/blob/master/src/qt/res/icons/slack-64.png)](https://slackin.conslackin.tk)
 
-[![Join the ShenJS chat](https://slackin.conslackin.tk/badge.svg)](https://slackin.conslackin.tk/)
-<script async defer src="https://slackin.conslackin.tk/slackin.js"></script>
-<script async defer src="slackin.js">
+
 PayCon Specifications 
 ===========================
 
