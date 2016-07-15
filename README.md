@@ -1,7 +1,7 @@
 
 ![alt text](https://github.com/cryptotech/PayCon/blob/master/src/qt/res/icons/PayCon256.png "PayCon")
 
-[![Join the chat at https://slackin.conslackin.tk](https://github.com/cryptotech/PayCon_Dev/blob/master/src/qt/res/icons/slack-64.png)](https://slackin.conslackin.tk)
+[![Join the chat at http://slackin.conslackin.tk](https://github.com/cryptotech/PayCon_Dev/blob/master/src/qt/res/icons/slack-64.png)](http://slackin.conslackin.tk)
 
 
 PayCon Specifications 
